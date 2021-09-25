@@ -3,4 +3,4 @@
 *.csv
 .vscode
 venv/*
-
+database.ini
