@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Map
+title: Karte
 ---
 
-<a href="#" onClick="showDisruptionMarkers()" class="btn btn-md btn-outline-secondary">Show Disruptions</a>
-<a href="#" onClick="hideDisruptionMarkers()" class="btn btn-md btn-outline-secondary">Hide Disruptions</a>
+<a href="#" id="btn1" onClick="showDisruptionMarkers()" class="btn btn-md btn-secondary">Störungen (letzte 7 Tage)</a>
+<a href="#" id="btn2" onClick="showFutureProblemMarkers()" class="btn btn-md btn-outline-secondary">Künftige Probleme</a>
 
 <div id="failureMap" style="height:600px;"></div>
 
@@ -251,7 +251,13 @@ title: Map
     [47.24112675800406, 8.18928117341213, '2020-02-15 04:20:30', 'Stoerung: Zwangsbremse wurde aktiviert']
   ];
 
+  let possibleFutureProblems = [
+    [47.26656467445456,8.17642221606075, '2021-09-26 17:41:44', 'Problem: RSSI schwach'],
+    [47.36063711968862,8.04625735470111, '2021-09-26 15:12:29', 'Problem: RSSI schwach']
+  ]
+
   let disruptionMarkers = [];
+  let futureProblemMarkers = [];
 
   for (let disruption of disruptionData) {
     disruptionMarkers.push(
@@ -261,28 +267,56 @@ title: Map
     )
   }
 
+  for (let problem of possibleFutureProblems) {
+    futureProblemMarkers.push(
+      L.marker([problem[0], problem[1]])
+       .bindPopup(`${problem[3]}<br>Zeitpunkt entdeckt: ${problem[2]}`)
+    )
+  }
+
   let disruptionMarkersVisible = true;
+  let futureProblemMarkersVisible = false;
 
-  let hideDisruptionMarkers = function() {
-    if (!disruptionMarkersVisible)
-      return;
-
-    for(let marker of disruptionMarkers) {
-      marker.remove();
+  let showFutureProblemMarkers = function() {
+    if (disruptionMarkersVisible) {
+      for(let marker of disruptionMarkers) {
+        marker.remove();
+      }
     }
 
+    for(let marker of futureProblemMarkers) {
+      marker.addTo(map);
+    }
+    
     disruptionMarkersVisible = false;
+    futureProblemMarkersVisible = true;
+
+    document.getElementById("btn2").classList.add('btn-secondary');
+    document.getElementById("btn1").classList.remove('btn-secondary');
+
+    document.getElementById("btn1").classList.add('btn-outline-secondary');
+    document.getElementById("btn2").classList.remove('btn-outline-secondary');
   }
 
   let showDisruptionMarkers = function() {
-    if (disruptionMarkersVisible)
-      return;
+    if (futureProblemMarkersVisible) {
+      for(let marker of futureProblemMarkers) {
+        marker.remove();
+      }
+    }
 
     for(let marker of disruptionMarkers) {
       marker.addTo(map);
     }
 
     disruptionMarkersVisible = true;
+    futureProblemMarkersVisible = false;
+
+    document.getElementById("btn1").classList.add('btn-secondary');
+    document.getElementById("btn2").classList.remove('btn-secondary');
+
+    document.getElementById("btn2").classList.add('btn-outline-secondary');
+    document.getElementById("btn1").classList.remove('btn-outline-secondary');
   }
   
 </script>
