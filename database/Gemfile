@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+ruby '3.0.1'
+
+gem 'activerecord'
+gem 'pg'
+gem 'pry-byebug'
+gem 'progressbar'
+gem 'figaro'
