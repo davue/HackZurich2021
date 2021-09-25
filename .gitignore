@@ -3,4 +3,5 @@
 *.csv
 .vscode
 venv/*
+application.yml
 
