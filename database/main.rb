@@ -86,7 +86,8 @@ end
 def load_rssi_data(month)
   month_counts = {
     feb: 2_237_875,
-    mar: 2_247_918
+    mar: 2_247_918,
+    apr: 1_420_853
   }
 
   rssi_records_to_fetch = month_counts[month]
@@ -98,7 +99,7 @@ def load_rssi_data(month)
   )
 
   # Put RSSI data in table
-  File.open("../data/rssi.csv") do |file|
+  File.open("../data/rssi_#{month}.csv") do |file|
     headers = file.first
 
     file.lazy.each_slice(BATCH_SIZE) do |lines|
@@ -136,6 +137,8 @@ when 'load_rssi_feb'
   load_rssi_data(:feb)
 when 'load_rssi_mar'
   load_rssi_data(:mar)
+when 'load_rssi_apr'
+  load_rssi_data(:apr)
 when 'load_disruptions'
   load_disruption_data
 else
