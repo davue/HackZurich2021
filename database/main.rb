@@ -82,12 +82,13 @@ def drop_tables
   CreateDisruptionsTable.migrate(:down)
 end
 
-
+# Load data in the database for a certain month
 def load_rssi_data(month)
   month_counts = {
     feb: 2_237_875,
     mar: 2_247_918,
-    apr: 1_420_853
+    apr: 1_420_853,
+    may: 1_426_225
   }
 
   rssi_records_to_fetch = month_counts[month]
@@ -139,6 +140,8 @@ when 'load_rssi_mar'
   load_rssi_data(:mar)
 when 'load_rssi_apr'
   load_rssi_data(:apr)
+when 'load_rssi_may'
+  load_rssi_data(:may)
 when 'load_disruptions'
   load_disruption_data
 else
