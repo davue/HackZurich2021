@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -f 'rssi.csv' ]; then
 	unzip rssi.zip
 fi
