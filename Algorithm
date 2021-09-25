@@ -1,0 +1,8 @@
+1. Select over time slots of ~200s - 500s
+2. Select position range within time slot with length 1000dm
+3. calculate avg for this length slot
+-> now we have for every position interval a bunch of values for RSSI and #TGs for different passes
+4. calculate variance of RSSI for a given position
+-> flag RSSI if above some threshold
+-> set threshold using disruptions values (HOW?)
+-> do the same for #TGs -> have to reformat from cumulative to per time interval first
