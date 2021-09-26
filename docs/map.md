@@ -4,7 +4,7 @@ title: Karte
 ---
 
 <a href="#" id="btn1" onClick="showDisruptionMarkers()" class="btn btn-md btn-secondary">Störungen (letzte 7 Tage)</a>
-<a href="#" id="btn2" onClick="showFutureProblemMarkers()" class="btn btn-md btn-outline-secondary">Künftige Probleme</a>
+<a href="#" id="btn2" onClick="showFutureProblemMarkers()" class="btn btn-md btn-outline-secondary">Mögliche Probleme</a>
 
 <div id="failureMap" style="height:600px;"></div>
 
@@ -319,4 +319,9 @@ title: Karte
     document.getElementById("btn1").classList.remove('btn-outline-secondary');
   }
   
+  L.circle([47.305, 8.05], {radius: 200, color: 'red'}).addTo(map)
+   .bindPopup('<b>23</b> Störungen in den letzten 30 Tagen in diesem Bereich');
+
+  L.circle([47.241, 8.1895], {radius: 200, color: 'red'}).addTo(map)
+   .bindPopup('<b>14</b> Störungen in den letzten 30 Tagen in diesem Bereich');
 </script>
