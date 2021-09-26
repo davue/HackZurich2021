@@ -51,7 +51,7 @@ def fetch_all(conn, query):
 
     return result
 
-
+# Draws a graph for inspecting a material failure
 def draw_test_graph(conn):
     # execute a statement
     result = fetch_all(conn,
@@ -64,7 +64,8 @@ def draw_test_graph(conn):
     plt.axvline(x=97605, color='red')
     plt.show()
 
-
+# For every day it calculates the average RSSI for every track segment and saves it into a JSON for further processing
+# if it is below a specified threshold.
 def save_low_rssi_per_day(conn):
     rssi_threshold = 1
 
@@ -92,7 +93,8 @@ def save_low_rssi_per_day(conn):
     with open('low_rssi.json', 'w', encoding='utf-8') as f:
         json.dump(all_failures, f, default=str, ensure_ascii=False, indent=4)
 
-
+# Calculates how many low telegram rate incidents happened at every track segment. If they surpass a given threshold
+# we save it into a JSON for further processing.
 def save_low_telegram(conn):
     result = fetch_all(conn,
                        f"SELECT * FROM(SELECT min(date_time) as date_time, count(*) incidents, position, avg(avg_rssi), min(latitude) AS latitude, min(longitude) AS longitude FROM (SELECT min(date_time) AS date_time, count(*) as lost_telegrams, min(position_group) as position, avg(a2_rssi) AS avg_rssi, min(latitude) AS latitude, min(longitude) AS longitude FROM (SELECT *, round(position_no_leap, -2) as position_group, round(CAST(extract(epoch from date_time) AS numeric), -1) as time_group FROM rssi_records) grouped GROUP BY grouped.time_group, a2_valid_tel ORDER BY count(*) desc) agg WHERE lost_telegrams = 2 GROUP BY position) a WHERE incidents > 9;")
