@@ -12,6 +12,9 @@
     <link href="css/dashboard.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+
     <!-- Leaflet stuff -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -55,6 +58,18 @@
                   Karte
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link {% if page.url == '/data.html' %}active{% endif %}" href="data.html">
+                  <i class="fas fa-database"></i>
+                  Datensätze
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link {% if page.url == '/analytics.html' %}active{% endif %}" href="analytics.html">
+                  <i class="fas fa-chart-bar"></i>
+                  Analyse
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -67,7 +82,5 @@
         </main>
       </div>
     </div>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
