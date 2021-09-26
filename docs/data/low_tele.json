@@ -1,0 +1,474 @@
+[
+    {
+        "first_incident": "2020-02-18 07:56:01",
+        "low_tele_incidents": 41,
+        "position": "370900",
+        "avg_rssi": "1.09902439024390243902",
+        "latitude": "47.28274808052777",
+        "longitude": "8.15208484626226"
+    },
+    {
+        "first_incident": "2020-02-04 07:01:29",
+        "low_tele_incidents": 21,
+        "position": "210100",
+        "avg_rssi": "1.7866666666666667",
+        "latitude": "47.39356148647055",
+        "longitude": "8.06537741560339"
+    },
+    {
+        "first_incident": "2020-02-25 06:57:36",
+        "low_tele_incidents": 17,
+        "position": "99400",
+        "avg_rssi": "1.45647058823529411765",
+        "latitude": "47.30650966874708",
+        "longitude": "8.05022276913287"
+    },
+    {
+        "first_incident": "2020-02-18 17:25:30",
+        "low_tele_incidents": 24,
+        "position": "193600",
+        "avg_rssi": "1.29583333333333333333",
+        "latitude": "47.38613275754499",
+        "longitude": "8.04997909182138"
+    },
+    {
+        "first_incident": "2020-02-07 23:37:36",
+        "low_tele_incidents": 10,
+        "position": "152500",
+        "avg_rssi": "1.74450000000000000000",
+        "latitude": "47.35273486124006",
+        "longitude": "8.04744670105711"
+    },
+    {
+        "first_incident": "2020-02-13 10:30:23",
+        "low_tele_incidents": 15,
+        "position": "412000",
+        "avg_rssi": "1.96300000000000000000",
+        "latitude": "47.25384978725084",
+        "longitude": "8.18372893765372"
+    },
+    {
+        "first_incident": "2020-02-03 19:27:22",
+        "low_tele_incidents": 21,
+        "position": "322200",
+        "avg_rssi": "1.74642857142857142857",
+        "latitude": "47.31015837726947",
+        "longitude": "8.11503691775766"
+    },
+    {
+        "first_incident": "2020-04-01 09:57:33",
+        "low_tele_incidents": 42,
+        "position": "99300",
+        "avg_rssi": "1.08738095238095238095",
+        "latitude": "47.30640575583757",
+        "longitude": "8.05018079568035"
+    },
+    {
+        "first_incident": "2020-02-08 05:16:37",
+        "low_tele_incidents": 21,
+        "position": "99500",
+        "avg_rssi": "1.43309523809523809524",
+        "latitude": "47.30657898653437",
+        "longitude": "8.05025052408625"
+    },
+    {
+        "first_incident": "2020-02-10 12:56:12",
+        "low_tele_incidents": 30,
+        "position": "385700",
+        "avg_rssi": "1.75800000000000000000",
+        "latitude": "47.27377908214237",
+        "longitude": "8.16644221200291"
+    },
+    {
+        "first_incident": "2020-02-08 05:27:48",
+        "low_tele_incidents": 64,
+        "position": "155900",
+        "avg_rssi": "1.19031250000000000000",
+        "latitude": "47.35575667864762",
+        "longitude": "8.04650519998276"
+    },
+    {
+        "first_incident": "2020-02-20 18:34:41",
+        "low_tele_incidents": 31,
+        "position": "283000",
+        "avg_rssi": "1.14064516129032258065",
+        "latitude": "47.34432993162567",
+        "longitude": "8.11299935291599"
+    },
+    {
+        "first_incident": "2020-04-01 20:02:16",
+        "low_tele_incidents": 12,
+        "position": "104400",
+        "avg_rssi": "2.2820833333333333",
+        "latitude": "47.31087808667621",
+        "longitude": "8.05126480934724"
+    },
+    {
+        "first_incident": "2020-02-08 06:59:48",
+        "low_tele_incidents": 30,
+        "position": "210600",
+        "avg_rssi": "1.8386666666666667",
+        "latitude": "47.39334673594112",
+        "longitude": "8.06598023032534"
+    },
+    {
+        "first_incident": "2020-02-05 15:03:13",
+        "low_tele_incidents": 27,
+        "position": "98600",
+        "avg_rssi": "1.74777777777777777778",
+        "latitude": "47.30580040947787",
+        "longitude": "8.04993165669709"
+    },
+    {
+        "first_incident": "2020-02-13 10:30:25",
+        "low_tele_incidents": 15,
+        "position": "412200",
+        "avg_rssi": "1.97100000000000000000",
+        "latitude": "47.25374532156073",
+        "longitude": "8.18382570733976"
+    },
+    {
+        "first_incident": "2020-02-12 07:30:57",
+        "low_tele_incidents": 33,
+        "position": "322900",
+        "avg_rssi": "1.42742424242424242424",
+        "latitude": "47.30960349326915",
+        "longitude": "8.11532418234793"
+    },
+    {
+        "first_incident": "2020-02-25 07:19:10",
+        "low_tele_incidents": 21,
+        "position": "193700",
+        "avg_rssi": "0.84333333333333333333",
+        "latitude": "47.38622422886965",
+        "longitude": "8.04995828751015"
+    },
+    {
+        "first_incident": "2020-02-08 14:30:31",
+        "low_tele_incidents": 17,
+        "position": "210200",
+        "avg_rssi": "1.8394117647058824",
+        "latitude": "47.39352868696788",
+        "longitude": "8.06549905123108"
+    },
+    {
+        "first_incident": "2020-02-04 18:14:05",
+        "low_tele_incidents": 15,
+        "position": "322000",
+        "avg_rssi": "1.92200000000000000000",
+        "latitude": "47.31035309593205",
+        "longitude": "8.11489588722248"
+    },
+    {
+        "first_incident": "2020-02-04 06:10:03",
+        "low_tele_incidents": 56,
+        "position": "385300",
+        "avg_rssi": "1.49366071428571428571",
+        "latitude": "47.27397722248333",
+        "longitude": "8.16604297667389"
+    },
+    {
+        "first_incident": "2020-02-08 05:16:40",
+        "low_tele_incidents": 14,
+        "position": "99600",
+        "avg_rssi": "1.24964285714285714286",
+        "latitude": "47.30666823318551",
+        "longitude": "8.05028625858873"
+    },
+    {
+        "first_incident": "2020-02-06 06:24:09",
+        "low_tele_incidents": 796,
+        "position": "97900",
+        "avg_rssi": "1.20904522613065326633",
+        "latitude": "47.30521056290888",
+        "longitude": "8.04961642205152"
+    },
+    {
+        "first_incident": "2020-04-01 21:38:35",
+        "low_tele_incidents": 14,
+        "position": "373200",
+        "avg_rssi": "0.87892857142857142857",
+        "latitude": "47.28135354691188",
+        "longitude": "8.15441919667177"
+    },
+    {
+        "first_incident": "2020-02-11 18:13:25",
+        "low_tele_incidents": 29,
+        "position": "385400",
+        "avg_rssi": "1.18396551724137931034",
+        "latitude": "47.27393782615823",
+        "longitude": "8.16614076916610"
+    },
+    {
+        "first_incident": "2020-02-05 08:39:23",
+        "low_tele_incidents": 20,
+        "position": "385200",
+        "avg_rssi": "1.50175000000000000000",
+        "latitude": "47.27403226146692",
+        "longitude": "8.16594014333157"
+    },
+    {
+        "first_incident": "2020-02-05 07:34:20",
+        "low_tele_incidents": 631,
+        "position": "98900",
+        "avg_rssi": "1.98448494453248811410",
+        "latitude": "47.30606047336798",
+        "longitude": "8.05004001494716"
+    },
+    {
+        "first_incident": "2020-02-05 18:13:10",
+        "low_tele_incidents": 21,
+        "position": "210700",
+        "avg_rssi": "1.8626190476190476",
+        "latitude": "47.39331122515012",
+        "longitude": "8.06609944899821"
+    },
+    {
+        "first_incident": "2020-02-03 06:33:23",
+        "low_tele_incidents": 16,
+        "position": "99000",
+        "avg_rssi": "1.83937500000000000000",
+        "latitude": "47.30614787569738",
+        "longitude": "8.05007565117286"
+    },
+    {
+        "first_incident": "2020-02-10 17:56:13",
+        "low_tele_incidents": 41,
+        "position": "373900",
+        "avg_rssi": "1.02804878048780487805",
+        "latitude": "47.28089435469404",
+        "longitude": "8.15505262381637"
+    },
+    {
+        "first_incident": "2020-02-20 06:21:03",
+        "low_tele_incidents": 36,
+        "position": "97800",
+        "avg_rssi": "1.38875000000000000000",
+        "latitude": "47.30514337992225",
+        "longitude": "8.04958727903819"
+    },
+    {
+        "first_incident": "2020-02-11 18:28:13",
+        "low_tele_incidents": 11,
+        "position": "411700",
+        "avg_rssi": "1.8613636363636364",
+        "latitude": "47.25414006243963",
+        "longitude": "8.18356627225049"
+    },
+    {
+        "first_incident": "2020-04-27 04:06:48",
+        "low_tele_incidents": 18,
+        "position": "98000",
+        "avg_rssi": "1.05083333333333333333",
+        "latitude": "47.30537685186562",
+        "longitude": "8.04969272838343"
+    },
+    {
+        "first_incident": "2020-04-02 08:54:43",
+        "low_tele_incidents": 11,
+        "position": "289200",
+        "avg_rssi": "2.0422727272727273",
+        "latitude": "47.33879661752519",
+        "longitude": "8.11413535167347"
+    },
+    {
+        "first_incident": "2020-04-17 16:02:11",
+        "low_tele_incidents": 15,
+        "position": "100800",
+        "avg_rssi": "1.25733333333333333333",
+        "latitude": "47.30772764054362",
+        "longitude": "8.05057166338714"
+    },
+    {
+        "first_incident": "2020-02-27 18:16:25",
+        "low_tele_incidents": 10,
+        "position": "407300",
+        "avg_rssi": "1.03900000000000000000",
+        "latitude": "47.25770310513848",
+        "longitude": "8.18102985716987"
+    },
+    {
+        "first_incident": "2020-02-17 18:13:22",
+        "low_tele_incidents": 16,
+        "position": "322800",
+        "avg_rssi": "2.01500000000000000000",
+        "latitude": "47.30970851406411",
+        "longitude": "8.11528709871460"
+    },
+    {
+        "first_incident": "2020-02-02 15:09:50",
+        "low_tele_incidents": 52,
+        "position": "373800",
+        "avg_rssi": "0.79432692307692307692",
+        "latitude": "47.28095385001527",
+        "longitude": "8.15496777119601"
+    },
+    {
+        "first_incident": "2020-02-04 19:51:08",
+        "low_tele_incidents": 475,
+        "position": "98800",
+        "avg_rssi": "2.0427894736842105",
+        "latitude": "47.30604316597602",
+        "longitude": "8.05003295826881"
+    },
+    {
+        "first_incident": "2020-02-19 06:36:00",
+        "low_tele_incidents": 28,
+        "position": "365200",
+        "avg_rssi": "1.30267857142857142857",
+        "latitude": "47.28133091688028",
+        "longitude": "8.14612350258109"
+    },
+    {
+        "first_incident": "2020-05-01 06:23:55",
+        "low_tele_incidents": 10,
+        "position": "426200",
+        "avg_rssi": "1.26250000000000000000",
+        "latitude": "47.24186470630614",
+        "longitude": "8.18902728143358"
+    },
+    {
+        "first_incident": "2020-02-03 07:25:23",
+        "low_tele_incidents": 72,
+        "position": "282900",
+        "avg_rssi": "1.55020833333333333333",
+        "latitude": "47.34437239729265",
+        "longitude": "8.11297821507066"
+    },
+    {
+        "first_incident": "2020-04-01 06:03:06",
+        "low_tele_incidents": 36,
+        "position": "99900",
+        "avg_rssi": "1.96319444444444444444",
+        "latitude": "47.30692567396679",
+        "longitude": "8.05038876492032"
+    },
+    {
+        "first_incident": "2020-02-03 16:58:20",
+        "low_tele_incidents": 31,
+        "position": "322100",
+        "avg_rssi": "1.84403225806451612903",
+        "latitude": "47.31023274902910",
+        "longitude": "8.11496368911242"
+    },
+    {
+        "first_incident": "2020-02-03 05:42:07",
+        "low_tele_incidents": 13,
+        "position": "321900",
+        "avg_rssi": "1.66961538461538461538",
+        "latitude": "47.31041249374147",
+        "longitude": "8.11482287299694"
+    },
+    {
+        "first_incident": "2020-02-26 06:44:17",
+        "low_tele_incidents": 17,
+        "position": "322700",
+        "avg_rssi": "2.0664705882352941",
+        "latitude": "47.30978189594996",
+        "longitude": "8.11525396305920"
+    },
+    {
+        "first_incident": "2020-04-07 06:27:43",
+        "low_tele_incidents": 14,
+        "position": "100400",
+        "avg_rssi": "1.48250000000000000000",
+        "latitude": "47.30737167422713",
+        "longitude": "8.05051145212276"
+    },
+    {
+        "first_incident": "2020-02-11 20:58:31",
+        "low_tele_incidents": 12,
+        "position": "406900",
+        "avg_rssi": "1.48416666666666666667",
+        "latitude": "47.25799102708680",
+        "longitude": "8.18082638394942"
+    },
+    {
+        "first_incident": "2020-02-04 19:03:30",
+        "low_tele_incidents": 49,
+        "position": "98500",
+        "avg_rssi": "1.89295918367346938776",
+        "latitude": "47.30571311569649",
+        "longitude": "8.04989545060550"
+    },
+    {
+        "first_incident": "2020-02-10 17:11:21",
+        "low_tele_incidents": 27,
+        "position": "156000",
+        "avg_rssi": "1.49722222222222222222",
+        "latitude": "47.35578540434133",
+        "longitude": "8.04650637301679"
+    },
+    {
+        "first_incident": "2020-02-08 07:47:42",
+        "low_tele_incidents": 23,
+        "position": "129400",
+        "avg_rssi": "1.96043478260869565217",
+        "latitude": "47.33293939739240",
+        "longitude": "8.05439621207921"
+    },
+    {
+        "first_incident": "2020-02-12 17:17:58",
+        "low_tele_incidents": 15,
+        "position": "210300",
+        "avg_rssi": "1.8713333333333333",
+        "latitude": "47.39349588746521",
+        "longitude": "8.06562570276094"
+    },
+    {
+        "first_incident": "2020-02-06 03:00:45",
+        "low_tele_incidents": 10,
+        "position": "97300",
+        "avg_rssi": "1.27500000000000000000",
+        "latitude": "47.30472994615836",
+        "longitude": "8.04940793741768"
+    },
+    {
+        "first_incident": "2020-02-17 17:44:53",
+        "low_tele_incidents": 12,
+        "position": "407400",
+        "avg_rssi": "1.43708333333333333333",
+        "latitude": "47.25759441763679",
+        "longitude": "8.18109002261380"
+    },
+    {
+        "first_incident": "2020-04-01 09:33:03",
+        "low_tele_incidents": 132,
+        "position": "99200",
+        "avg_rssi": "0.94962121212121212121",
+        "latitude": "47.30637979474964",
+        "longitude": "8.05017021066282"
+    },
+    {
+        "first_incident": "2020-04-01 08:19:08",
+        "low_tele_incidents": 23,
+        "position": "370800",
+        "avg_rssi": "0.71630434782608695652",
+        "latitude": "47.28277960347707",
+        "longitude": "8.15201869108548"
+    },
+    {
+        "first_incident": "2020-02-12 00:13:09",
+        "low_tele_incidents": 11,
+        "position": "407000",
+        "avg_rssi": "1.14500000000000000000",
+        "latitude": "47.25792291329938",
+        "longitude": "8.18087204169739"
+    },
+    {
+        "first_incident": "2020-02-27 18:03:27",
+        "low_tele_incidents": 16,
+        "position": "322500",
+        "avg_rssi": "1.9859375000000000",
+        "latitude": "47.30991456735158",
+        "longitude": "8.11517314538009"
+    },
+    {
+        "first_incident": "2020-02-03 07:41:25",
+        "low_tele_incidents": 70,
+        "position": "385600",
+        "avg_rssi": "1.65071428571428571429",
+        "latitude": "47.27381963718291",
+        "longitude": "8.16634441951070"
+    }
+]

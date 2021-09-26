@@ -9,6 +9,10 @@ title: Karte
 <div id="failureMap" style="height:600px;"></div>
 
 <script>
+    fetch("data/low_tele.json")
+      .then(response => response.json())
+      .then(json => setupPossibleFutureProblems(json));
+
   let map = L.map('failureMap').setView([47.320788, 8.064205], 11);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -251,10 +255,24 @@ title: Karte
     [47.24112675800406, 8.18928117341213, '2020-02-15 04:20:30', 'Stoerung: Zwangsbremse wurde aktiviert']
   ];
 
-  let possibleFutureProblems = [
-    [47.26656467445456,8.17642221606075, '2021-09-26 17:41:44', 'Problem: RSSI schwach'],
-    [47.36063711968862,8.04625735470111, '2021-09-26 15:12:29', 'Problem: RSSI schwach']
-  ]
+  let possibleFutureProblems;
+  
+  let setupPossibleFutureProblems = function(data) {
+    for (const [key, value] of Object.entries(data)) {
+      let rssi = Math.round((parseFloat(value.avg_rssi) + Number.EPSILON) * 10000) / 10000;
+
+      futureProblemMarkers.push(
+        L.marker([value.latitude, value.longitude])
+        .bindPopup(`
+          <b>Mögliches Problem erkannt</b><br>
+          Erster Datenpunkt am ${value.first_incident} aufgezeichnet<br>
+          Unterschreitungen der Grenze für Telegrams/sekunde:
+          ${value.low_tele_incidents}<br>
+          Durchschnittliche RSSI: ${rssi}
+        `)
+      )
+    }
+  }
 
   let disruptionMarkers = [];
   let futureProblemMarkers = [];
@@ -264,13 +282,6 @@ title: Karte
       L.marker([disruption[0], disruption[1]])
        .addTo(map)
        .bindPopup(`${disruption[3]}<br>Zeitpunkt: ${disruption[2]}`)
-    )
-  }
-
-  for (let problem of possibleFutureProblems) {
-    futureProblemMarkers.push(
-      L.marker([problem[0], problem[1]])
-       .bindPopup(`${problem[3]}<br>Zeitpunkt entdeckt: ${problem[2]}`)
     )
   }
 
